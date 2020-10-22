@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BCode - Templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #121212;
+    }
+
+    header {
+      background-color: #333335;
+      color: #FFFFFF;
+      font-family: Consolas;
+      font-size: 25px;
+      padding: 15px;
+      user-select: none;
+    }
+
+    .BCode_main {
+      display: inline;
+      cursor: pointer;
+      color: #FFFFFF;
+    }
+
+    a {
+      text-decoration: none;
+      color: orange;
+      font-family: Consolas;
+    }
+
+    .templatesButton, .helpButton, .sourceButton, .downloadButton {
+      border: none;
+      padding: 10px;
+      position: relative;
+      float: right;
+      background-color: #121212;
+      color: #FFFFFF;
+      font-family: Consolas;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 5px;
+    }
+
+    .templatesButton:hover, .helpButton:hover, .sourceButton:hover, .downloadButton:hover {
+      background-color: #000000;
+      transition-duration: 0.4s;
+    }
+
+    ul {
+      padding: 50px;
+    }
+
+  </style>
+  <body>
+    <header>
+      <a href="index.html"><p class="BCode_main">BCode</p></a>
+      <button type="button" class="templatesButton">Templates</button>
+      <button type="button" class="helpButton">Help</button>
+      <a href="https://github.com/The-Bcode/The-Bcode.github.io" target="_blank"><button type="button" class="sourceButton">Source</button></a>
+      <button type="button" class="downloadButton">Download</button>
+    </header>
+    <div class="Templates">
+      <ul>
+        <a href="#">HTML Basic Template</a>
+      </ul>
+    </div>
+  </body>
+</html>
